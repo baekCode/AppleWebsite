@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "html & css & javascript를 이용한 애플 웹사이트 클론 코딩",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
