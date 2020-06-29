@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 a {
@@ -81,7 +81,9 @@ a {
 }
 
 #scroll-section-1 p {
+  max-width: 1000px;
   padding: 0 1rem;
+  margin: 0 auto;
   font-size: 1.2rem;
   color: #888;
 }
@@ -117,7 +119,9 @@ a {
 }
 
 #scroll-section-3 .mid-message {
+  max-width: 1000px;
   padding: 0 1rem;
+  margin: 0 auto;
   font-size: 2rem;
   color: #888;
 }
@@ -128,7 +132,9 @@ a {
 }
 
 #scroll-section-3 .canvas-caption {
+  max-width: 1000px;
   padding: 0 1rem;
+  margin: 0 auto;
   font-size: 1.2rem;
   color: #888;
 }
@@ -140,4 +146,35 @@ footer {
   height: 7rem;
   color: #fff;
   background: #333;
+}
+
+@media (min-width: 1024px) {
+  #scroll-section-0 h1 {
+    font-size: 9vw;
+  }
+  #scroll-section-0 .sticky-element {
+    font-size: 4vw;
+  }
+  #scroll-section-1 p {
+    font-size: 2rem;
+  }
+  #scroll-section-1 p strong {
+    font-size: 6rem;
+  }
+  #scroll-section-2 .sticky-element:not(.description-message) p {
+    font-size: 6vw;
+  }
+  #scroll-section-2 .sticky-element p small {
+    font-size: 1.5vw;
+  }
+  #scroll-section-2 .sticky-element.description-message {
+    width: 20%;
+  }
+  #scroll-section-3 .mid-message {
+    font-size: 4vw;
+    line-height: 1.2;
+  }
+  #scroll-section-3 .canvas-caption {
+    font-size: 2rem;
+  }
 }
