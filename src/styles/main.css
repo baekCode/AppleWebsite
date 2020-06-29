@@ -26,10 +26,12 @@ a {
 
 .top-nav {
   height: 45px;
+  padding: 0 1rem;
 }
 
 .global-nav {
   height: 55px;
+  padding: 0 1rem;
   border-bottom: 1px solid #eee;
 }
 
@@ -53,4 +55,89 @@ a {
 .global-nav .global-nav-item:not(.product-name) {
   margin-left: 2em;
   font-size: 0.8rem;
+}
+
+.scroll-section {
+  padding-top: 50vh;
+}
+
+#scroll-section-0 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#scroll-section-0 .sticky-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  font-size: 2.5rem;
+}
+
+#scroll-section-0 .sticky-element p {
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#scroll-section-1 p {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+#scroll-section-1 p strong {
+  float: left;
+  margin-right: 0.2em;
+  font-size: 3rem;
+  color: rgb(29, 29, 31);
+}
+
+#scroll-section-2 .sticky-element:not(.description-message) p {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#scroll-section-2 .sticky-element p small {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+#scroll-section-2 .sticky-element.description-message {
+  width: 50%;
+  font-weight: bold;
+}
+
+#scroll-section-2 .sticky-element .pin {
+  width: 1px;
+  height: 100px;
+  background: rgb(29, 29, 31);
+}
+
+#scroll-section-3 .mid-message {
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #888;
+}
+
+#scroll-section-3 .mid-message strong {
+  display: block;
+  color: rgb(29, 29, 31);
+}
+
+#scroll-section-3 .canvas-caption {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  color: #fff;
+  background: #333;
 }
