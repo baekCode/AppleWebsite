@@ -1,0 +1,24 @@
+{
+  "name": "AppleWebsite",
+  "version": "1.0.0",
+  "description": "html & css & javascript를 이용한 애플 웹사이트 클론 코딩",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baekCode/AppleWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baekCode/AppleWebsite/issues"
+  },
+  "homepage": "https://github.com/baekCode/AppleWebsite#readme"
+}
