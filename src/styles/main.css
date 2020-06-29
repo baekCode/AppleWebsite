@@ -18,3 +18,39 @@ a {
   color: rgb(29, 29, 31);
   text-decoration: none;
 }
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  height: 45px;
+}
+
+.global-nav {
+  height: 55px;
+  border-bottom: 1px solid #eee;
+}
+
+.top-nav .inner,
+.global-nav .inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.top-nav .inner {
+  justify-content: space-between;
+}
+
+.global-nav .product-name {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.global-nav .global-nav-item:not(.product-name) {
+  margin-left: 2em;
+  font-size: 0.8rem;
+}
