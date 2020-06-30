@@ -25,11 +25,19 @@ a {
 }
 
 .top-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 45px;
   padding: 0 1rem;
 }
 
 .global-nav {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
   height: 55px;
   padding: 0 1rem;
   border-bottom: 1px solid #eee;
@@ -60,16 +68,27 @@ a {
 .scroll-section {
   padding-top: 50vh;
 }
-
+.sticky-element {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#show-scene-0 #scroll-section-0 .sticky-element,
+#show-scene-1 #scroll-section-1 .sticky-element,
+#show-scene-2 #scroll-section-2 .sticky-element,
+#show-scene-3 #scroll-section-3 .sticky-element {
+  display: block;
+}
 #scroll-section-0 h1 {
   font-size: 4rem;
   text-align: center;
 }
 
 #scroll-section-0 .sticky-element {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 3em;
   font-size: 2.5rem;
 }
